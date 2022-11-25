@@ -1,0 +1,71 @@
+
+marquee.promo,
+marquee.material{
+    padding: auto;
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 1300;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    padding-left: 5%;
+    padding-top: 5%;
+    height: 50%;
+    width: 50%;
+}
+.navbar{
+    background:linear-gradient( 90deg, #dedfe0, #d7dce2 , #c6d1d8, #858788);
+    border: 1px solid rgb(46, 44, 44);
+    border-radius: 0px;
+    margin-top: 5px;
+}
+.navbar2{
+    background:linear-gradient( 90deg, #dedfe0, #d7dce2 , #c6d1d8, #858788);
+    border: 1px solid rgb(46, 44, 44);
+    border-radius: 0px;
+    margin-top: 2px;
+}
+.carusel2 {
+    justify-items: legacy;
+    height: 50px;
+    padding-top: 1%;
+    padding-left: 2%;
+    width: 50%;
+    height: 30%;
+}
+.parrafo{
+    box-sizing: border-box;
+    text-align: right;
+    border: 2em;
+    border-radius: 2em;
+    padding-left: 2%;
+}
+.parrafo2{
+    box-sizing: border-box;
+    text-align: justify;
+    border-radius: 2px;
+    border-color: #858788;
+}
+.parrafo3{
+    padding-top: 15%;
+    padding-left: 2%;
+    font-size: 2em;
+    color: black;
+    background-color: #f1f5f7;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+}
+.parrafo4{
+    padding-top: 0%;
+    padding-left: 2%;
+    font-size: 1em;
+    color: black;
+    background-color: #f1f5f7;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   text-align: right;
+    align-items: center;
+}
