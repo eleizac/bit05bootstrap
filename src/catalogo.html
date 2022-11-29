@@ -1,130 +1,794 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Zapatillas Hat Trick</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="estilos.css"/>
-  </head>
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-lg bg-secondary fs-5">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#">Catalogo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#">Quienes Somos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#">Ventas al Mayor</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <div class="d-block p-2 bg-secondary">
-      <img src="./imgs/logo.png" class="rounded mx-auto d-block" alt="logo"> </div>
-  </header>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-  <main>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Catalogo Hat Trick</title>
+	<link rel="icon" type="image/jpg" href="/src/imgs/favicon.png">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Noto+Sans+JP&display=swap" rel="stylesheet"> 
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+	<!--Barra de Navegacion o Header-->
+	<header>
+		<nav class="navbar">
+			<div class="contenedor">
+				<a href="/src/index.html">Inicio</a>
+				<a href="/src/Contactanos.html">Contactanos</a>
+			</div>
+		</nav>
+		<hr>
+	</header>
+	<main>
+		<div class="card-group">
+			<!----------------Tarjeta 01-------------------->
+			<div class="card m-5">
+			  <img src="/src/imgs/micro01.png" class="card-img-top" alt="...">
+			  <div class="card-body">
+				<h5 class="card-title">MICRO 01</h5>
+				<p class="card-text">Fabricada en en material sintetico color Menta con Azul y suela de Colores.</p>
+				<p><del>Precio: 100.000</del></p>
+				<a href="/src/carrito.html"> 
+				<button type="button" class="btn btn-danger position-relative">
+					PROMO 79.900 <svg width="1em" height="1em" viewBox="0 0 16 16" class="position-absolute top-100 start-50 translate-middle mt-1 bi bi-caret-down-fill" fill="#212529" xmlns="http://www.w3.org/2000/svg"><path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg>
+				  </button></a>
+			  </div>
+			  <div class="card-footer">
+				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+					Tabla de tallas / Medidas
+				  </button>
+				  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+					<div class="modal-dialog">
+					  <div class="modal-content">
+						<div class="modal-header">
+						  <h5 class="modal-title" id="staticBackdropLabel">Tabla de tallas / Medidas</h5>
+						  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="modal-body">
+							<table class="table table-hover">
+								<tr>
+									<th scope="col">Talla</th>
+									<th scope="col">Medida</th>
+									<tr>
+										<th scope="row">33</th>
+										<td>22 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">34</th>
+										<td>23 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">35</th>
+										<td>23.5 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">36</th>
+										<td>24 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">37</th>
+										<td>24.5 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">38</th>
+										<td>25.5 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">39</th>
+										<td>26 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">40</th>
+										<td>27 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">41</th>
+										<td>27.5 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">42</th>
+										<td>28 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">43</th>
+										<td>29 cms</td>
+									  </tr>
+								  </tr>
+							  </table>
+						</div>
+						<div class="modal-footer">
+						  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Comprendido!</button>
+						</div>
+					  </div>
+					</div>
+				  </div>
+			  </div>
+			</div>
+			<!----------------Tarjeta 02-------------------->
+			<div class="card m-5">
+			  <img src="/src/imgs/micro02.png" class="card-img-top" alt="...">
+			  <div class="card-body">
+				<h5 class="card-title">MICRO 02</h5>
+				<p class="card-text">Fabricada en en material sintetico color Negro con Azul y suela de Colores.</p>
+				<p><del>Precio: 100.000</del></p>
+				<a href="/src/carrito.html"> 
+				<button type="button" class="btn btn-danger position-relative">
+					PROMO 79.900 <svg width="1em" height="1em" viewBox="0 0 16 16" class="position-absolute top-100 start-50 translate-middle mt-1 bi bi-caret-down-fill" fill="#212529" xmlns="http://www.w3.org/2000/svg"><path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg>
+				  </button></a>
+			  </div>
+			  <div class="card-footer">
+				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+					Tabla de tallas / Medidas
+				  </button>
+				  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+					<div class="modal-dialog">
+					  <div class="modal-content">
+						<div class="modal-header">
+						  <h5 class="modal-title" id="staticBackdropLabel">Tabla de tallas / Medidas</h5>
+						  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="modal-body">
+							<table class="table table-hover">
+								<tr>
+									<th scope="col">Talla</th>
+									<th scope="col">Medida</th>
+									<tr>
+										<th scope="row">33</th>
+										<td>22 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">34</th>
+										<td>23 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">35</th>
+										<td>23.5 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">36</th>
+										<td>24 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">37</th>
+										<td>24.5 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">38</th>
+										<td>25.5 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">39</th>
+										<td>26 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">40</th>
+										<td>27 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">41</th>
+										<td>27.5 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">42</th>
+										<td>28 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">43</th>
+										<td>29 cms</td>
+									  </tr>
+								  </tr>
+							  </table>
+						</div>
+						<div class="modal-footer">
+						  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Comprendido!</button>
+						</div>
+					  </div>
+					</div>
+				  </div>
+			  </div>
+			</div>
+			<!----------------Tarjeta 03-------------------->
+			<div class="card m-5">
+			  <img src="/src/imgs/micro03.png" class="card-img-top" alt="...">
+			  <div class="card-body">
+				<h5 class="card-title">Micro 03</h5>
+				<p class="card-text">Fabricada en material sintetico color Rojo con Negro y suela de Goma</p>
+				<p><del>Precio: 100.000</del></p>
+				<a href="/src/carrito.html"> 
+				<button type="button" class="btn btn-danger position-relative">
+					PROMO 79.900 <svg width="1em" height="1em" viewBox="0 0 16 16" class="position-absolute top-100 start-50 translate-middle mt-1 bi bi-caret-down-fill" fill="#212529" xmlns="http://www.w3.org/2000/svg"><path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg>
+				  </button></a>
+			  </div>	
+			  <div class="card-footer">
+				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+					Tabla de tallas / Medidas
+				  </button>
+				  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+					<div class="modal-dialog">
+					  <div class="modal-content">
+						<div class="modal-header">
+						  <h5 class="modal-title" id="staticBackdropLabel">Tabla de tallas / Medidas</h5>
+						  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="modal-body">
+							<table class="table table-hover">
+								<tr>
+									<th scope="col">Talla</th>
+									<th scope="col">Medida</th>
+									<tr>
+										<th scope="row">33</th>
+										<td>22 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">34</th>
+										<td>23 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">35</th>
+										<td>23.5 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">36</th>
+										<td>24 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">37</th>
+										<td>24.5 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">38</th>
+										<td>25.5 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">39</th>
+										<td>26 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">40</th>
+										<td>27 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">41</th>
+										<td>27.5 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">42</th>
+										<td>28 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">43</th>
+										<td>29 cms</td>
+									  </tr>
+								  </tr>
+							  </table>
+						</div>
+						<div class="modal-footer">
+						  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Comprendido!</button>
+						</div>
+					  </div>
+					</div>
+				  </div>
+			</div>
+		  </div>
+		  <hr>
+		  <div class="card-group">
+			<!----------------Tarjeta 04-------------------->
+			<div class="card m-5">
+			  <img src="/src/imgs/ultra01.png" class="card-img-top" alt="...">
+			  <div class="card-body">
+				<h5 class="card-title">ULTRA 01</h5>
+				<p class="card-text">Fabricada en material de Cuero en color Negro con azul y acabados en plateado.</p>
+				<p><del>Precio: 110.900</del></p>
+				<a href="/src/carrito.html"> 
+				<button type="button" class="btn btn-danger position-relative">
+					PROMO 89.900 <svg width="1em" height="1em" viewBox="0 0 16 16" class="position-absolute top-100 start-50 translate-middle mt-1 bi bi-caret-down-fill" fill="#212529" xmlns="http://www.w3.org/2000/svg"><path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg>
+				  </button></a>
+			  </div>
+			  <div class="card-footer">
+				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+					Tabla de tallas / Medidas
+				  </button>
+				  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+					<div class="modal-dialog">
+					  <div class="modal-content">
+						<div class="modal-header">
+						  <h5 class="modal-title" id="staticBackdropLabel">Tabla de tallas / Medidas</h5>
+						  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="modal-body">
+							<table class="table table-hover">
+								<tr>
+									<th scope="col">Talla</th>
+									<th scope="col">Medida</th>
+									<tr>
+										<th scope="row">33</th>
+										<td>22 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">34</th>
+										<td>23 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">35</th>
+										<td>23.5 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">36</th>
+										<td>24 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">37</th>
+										<td>24.5 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">38</th>
+										<td>25.5 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">39</th>
+										<td>26 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">40</th>
+										<td>27 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">41</th>
+										<td>27.5 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">42</th>
+										<td>28 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">43</th>
+										<td>29 cms</td>
+									  </tr>
+								  </tr>
+							  </table>
+						</div>
+						<div class="modal-footer">
+						  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Comprendido!</button>
+						</div>
+					  </div>
+					</div>
+				  </div>
+			  </div>
+			</div>
+			<!----------------Tarjeta 05-------------------->
+			<div class="card m-5">
+			  <img src="/src/imgs/ultra02.png" class="card-img-top" alt="...">
+			  <div class="card-body">
+				<h5 class="card-title">ULTRA 02</h5>
+				<p class="card-text">Fabricada en material de Cuero en color azul oscuro con azul claro y acabados en plateado.</p>
+				<p><del>Precio: 110.900</del></p>
+				<a href="/src/carrito.html"> 
+				<button type="button" class="btn btn-danger position-relative">
+					PROMO 89.900 <svg width="1em" height="1em" viewBox="0 0 16 16" class="position-absolute top-100 start-50 translate-middle mt-1 bi bi-caret-down-fill" fill="#212529" xmlns="http://www.w3.org/2000/svg"><path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg>
+				  </button></a>
+			  </div>
+			  <div class="card-footer">
+				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+					Tabla de tallas / Medidas
+				  </button>
+				  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+					<div class="modal-dialog">
+					  <div class="modal-content">
+						<div class="modal-header">
+						  <h5 class="modal-title" id="staticBackdropLabel">Tabla de tallas / Medidas</h5>
+						  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="modal-body">
+							<table class="table table-hover">
+								<tr>
+									<th scope="col">Talla</th>
+									<th scope="col">Medida</th>
+									<tr>
+										<th scope="row">33</th>
+										<td>22 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">34</th>
+										<td>23 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">35</th>
+										<td>23.5 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">36</th>
+										<td>24 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">37</th>
+										<td>24.5 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">38</th>
+										<td>25.5 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">39</th>
+										<td>26 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">40</th>
+										<td>27 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">41</th>
+										<td>27.5 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">42</th>
+										<td>28 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">43</th>
+										<td>29 cms</td>
+									  </tr>
+								  </tr>
+							  </table>
+						</div>
+						<div class="modal-footer">
+						  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Comprendido!</button>
+						</div>
+					  </div>
+					</div>
+				  </div>
+			  </div>
+			</div>
+			<!----------------Tarjeta 06-------------------->
+			<div class="card m-5">
+			  <img src="/src/imgs/ultra03.png" class="card-img-top" alt="...">
+			  <div class="card-body">
+				<h5 class="card-title">ULTRA 03</h5>
+				<p class="card-text">Fabricada en material de Cuero en color gris con azul y acabados en verde.</p>
+				<p><del>Precio: 110.900</del></p>
+				<a href="/src/carrito.html"> 
+				<button type="button" class="btn btn-danger position-relative">
+					PROMO 89.900 <svg width="1em" height="1em" viewBox="0 0 16 16" class="position-absolute top-100 start-50 translate-middle mt-1 bi bi-caret-down-fill" fill="#212529" xmlns="http://www.w3.org/2000/svg"><path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg>
+				  </button></a>
+			  </div>	
+			  <div class="card-footer">
+				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+					Tabla de tallas / Medidas
+				  </button>
+				  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+					<div class="modal-dialog">
+					  <div class="modal-content">
+						<div class="modal-header">
+						  <h5 class="modal-title" id="staticBackdropLabel">Tabla de tallas / Medidas</h5>
+						  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="modal-body">
+							<table class="table table-hover">
+								<tr>
+									<th scope="col">Talla</th>
+									<th scope="col">Medida</th>
+									<tr>
+										<th scope="row">33</th>
+										<td>22 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">34</th>
+										<td>23 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">35</th>
+										<td>23.5 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">36</th>
+										<td>24 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">37</th>
+										<td>24.5 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">38</th>
+										<td>25.5 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">39</th>
+										<td>26 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">40</th>
+										<td>27 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">41</th>
+										<td>27.5 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">42</th>
+										<td>28 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">43</th>
+										<td>29 cms</td>
+									  </tr>
+								  </tr>
+							  </table>
+						</div>
+						<div class="modal-footer">
+						  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Comprendido!</button>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				  
+			</div>
+		  </div>
 
-   <!-- AQUI INICIA EL CATALOGO ARIIBA ACTUALIZAS EL HEADER QUE HICISTE -->
-
-    <hr>
-    <div class="container">
-      <div class="row align-items-start">
-        <div class="col">
-          <img src="/src/imgs/copa 01.png" class="d-block w-100" alt="copa 01">
-          <p> Color Azul con lineas blancas</p>
-          <a href="/src/formulario.html" button type="button" class="btn btn-primary" id="boton">Comprar</a>
-        </div>
-        <div class="col">
-          <img src="/src/imgs/copa 02.png" class="d-block w-100" alt="copa 02">
-          <p> Color Negro con lineas doradas</p>
-          <a href="/src/formulario.html" button type="button" class="btn btn-primary">Comprar</a>
-        </div>
-        <div class="col">
-          <img src="/src/imgs/copa 03.png" class="d-block w-100" alt="copa 03">
-          <p> Color blanco con Lineas plateadas</p>
-          <a href="/src/formulario.html" button type="button" class="btn btn-primary">Comprar</a>
-        </div>
-        <div class="col">
-          <img src="/src/imgs/copa 04.png" class="d-block w-100" alt="copa 01">
-          <p> Color naranja con lineas blancas</p>
-          <a href="/src/formulario.html" button type="button" class="btn btn-primary">Comprar</a>
-        </div>
-        <div class="col">
-          <img src="/src/imgs/copa 05.png" class="d-block w-100" alt="copa 05">
-          <p> Color amarillo con Lineas azules</p>
-          <a href="/src/formulario.html" button type="button" class="btn btn-primary">Comprar</a>
-        </div>
-        <br>
-  <hr>
-        <div class="col">
-          <img src="/src/imgs/ultra02.png" class="d-block w-100" alt="copa 02">
-          <p> Edicion Especial en Cuero!</p>
-          <a href="/src/formulario.html" button type="button" class="btn btn-primary">Comprar</a>
-        </div>
-        <div class="col">
-          <img src="/src/imgs/ultra03.png" class="d-block w-100" alt="copa 03">
-          <p> Edicion Especial en Cuero!</p>
-          <a href="/src/formulario.html" button type="button" class="btn btn-primary">Comprar</a>
-        </div>
-        <div class="col">
-          <img src="/src/imgs/ultra04.png" class="d-block w-100" alt="copa 01">
-          <p> Edicion Especial en Cuero!</p>
-          <a href="/src/formulario.html" button type="button" class="btn btn-primary">Comprar</a>
-        </div>
-        <div class="col">
-          <img src="/src/imgs/ultra05.png" class="d-block w-100" alt="copa 05">
-          <p> Edicion Especial en Cuero!</p>
-          <a href="/src/formulario.html" button type="button" class="btn btn-primary">Comprar</a>
-        </div>
-        <hr>
-        <div class="container">
-        <div class="row align-items-start">
-          <div class="col">
-            <img src="/src/imgs/micro01.png" class="d-block w-100" alt="copa 01">
-            <p>Edicion Especial en Cuero!</p>
-            <a href="/src/formulario.html" button type="button" class="btn btn-primary">Comprar</a>
-          </div>
-          <div class="col">
-            <img src="/src/imgs/micro02.png" class="d-block w-100" alt="copa 02">
-            <p> Edicion Especial en Cuero!</p>
-            <a href="/src/formulario.html" button type="button" class="btn btn-primary">Comprar</a>
-          </div>
-          <div class="col">
-            <img src="/src/imgs/micro03.png" class="d-block w-100" alt="copa 03">
-            <p> Edicion Especial en Cuero!</p>
-            <a href="/src/formulario.html" button type="button" class="btn btn-primary">Comprar</a>
-          </div>
-          <div class="col">
-            <img src="/src/imgs/micro04.png" class="d-block w-100" alt="copa 01">
-            <p> Edicion Especial en Cuero!</p>
-            <a href="/src/formulario.html" button type="button" class="btn btn-primary">Comprar</a>
-          </div>
-          <div class="col">
-            <img src="/src/imgs/micro05.png" class="d-block w-100" alt="copa 05">
-            <p> Edicion Especial en Cuero!</p>
-            <a href="/src/formulario.html" button type="button" class="btn btn-primary">Comprar</a>
-          </div>
-          <hr>  
-    
-<!-- AQUI FINALIZA EL CATALOGO ABAJO ACTUALIZAS EL FOOTER SI ES NECESARIO -->
-
-   </main>
-    <footer>
-        <d class="d-flex border-top bg-secondary text-body">
-        <p>&copy; 2022 Ven_Team Company, Inc. All rights reserved.</p>
-      </div>
-      </footer>
-        
-          </body>
-    </html>
+		  <div class="card-group">
+			<!----------------Tarjeta 07-------------------->
+			<div class="card m-5">
+			  <img src="/src/imgs/jogo01.png" class="card-img-top" alt="...">
+			  <div class="card-body">
+				<h5 class="card-title">JOGO 01</h5>
+				<p class="card-text">Fabricada en material sintetico en color Blanco con azul y acabados en plateado y naranja.</p>
+				<p><del>Precio: 95.600</del></p>
+				<a href="/src/carrito.html"> 
+				<button type="button" class="btn btn-danger position-relative">
+					PROMO 79.900 <svg width="1em" height="1em" viewBox="0 0 16 16" class="position-absolute top-100 start-50 translate-middle mt-1 bi bi-caret-down-fill" fill="#212529" xmlns="http://www.w3.org/2000/svg"><path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg>
+				  </button></a>
+			  </div>
+			  <div class="card-footer">
+				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+					Tabla de tallas / Medidas
+				  </button>
+				  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+					<div class="modal-dialog">
+					  <div class="modal-content">
+						<div class="modal-header">
+						  <h5 class="modal-title" id="staticBackdropLabel">Tabla de tallas / Medidas</h5>
+						  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="modal-body">
+							<table class="table table-hover">
+								<tr>
+									<th scope="col">Talla</th>
+									<th scope="col">Medida</th>
+									<tr>
+										<th scope="row">33</th>
+										<td>22 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">34</th>
+										<td>23 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">35</th>
+										<td>23.5 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">36</th>
+										<td>24 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">37</th>
+										<td>24.5 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">38</th>
+										<td>25.5 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">39</th>
+										<td>26 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">40</th>
+										<td>27 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">41</th>
+										<td>27.5 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">42</th>
+										<td>28 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">43</th>
+										<td>29 cms</td>
+									  </tr>
+								  </tr>
+							  </table>
+						</div>
+						<div class="modal-footer">
+						  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Comprendido!</button>
+						</div>
+					  </div>
+					</div>
+				  </div>
+			  </div>
+			</div>
+			<!----------------Tarjeta 08-------------------->
+			<div class="card m-5">
+			  <img src="/src/imgs/jogo02.png" class="card-img-top" alt="...">
+			  <div class="card-body">
+				<h5 class="card-title">JOGO 02</h5>
+				<p class="card-text">Fabricada en material sintetico en color azul con verde y acabados en plateado.</p>
+				<p><del>Precio: 95.600</del></p>
+				<a href="/src/carrito.html"> 
+				<button type="button" class="btn btn-danger position-relative">
+					PROMO 79.900 <svg width="1em" height="1em" viewBox="0 0 16 16" class="position-absolute top-100 start-50 translate-middle mt-1 bi bi-caret-down-fill" fill="#212529" xmlns="http://www.w3.org/2000/svg"><path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg>
+				  </button></a>
+			  </div>
+			  <div class="card-footer">
+				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+					Tabla de tallas / Medidas
+				  </button>
+				  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+					<div class="modal-dialog">
+					  <div class="modal-content">
+						<div class="modal-header">
+						  <h5 class="modal-title" id="staticBackdropLabel">Tabla de tallas / Medidas</h5>
+						  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="modal-body">
+							<table class="table table-hover">
+								<tr>
+									<th scope="col">Talla</th>
+									<th scope="col">Medida</th>
+									<tr>
+										<th scope="row">33</th>
+										<td>22 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">34</th>
+										<td>23 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">35</th>
+										<td>23.5 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">36</th>
+										<td>24 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">37</th>
+										<td>24.5 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">38</th>
+										<td>25.5 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">39</th>
+										<td>26 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">40</th>
+										<td>27 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">41</th>
+										<td>27.5 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">42</th>
+										<td>28 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">43</th>
+										<td>29 cms</td>
+									  </tr>
+								  </tr>
+							  </table>
+						</div>
+						<div class="modal-footer">
+						  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Comprendido!</button>
+						</div>
+					  </div>
+					</div>
+				  </div>
+			  </div>
+			</div>
+			<!----------------Tarjeta 09-------------------->
+			<div class="card m-5">
+			  <img src="/src/imgs/jogo03.png" class="card-img-top" alt="...">
+			  <div class="card-body">
+				<h5 class="card-title">JOGO 03</h5>
+				<p class="card-text">Fabricada en material sintetico en color menta con plateados y acabados en azul.</p>
+				<p><del>Precio: 95.600</del></p>
+				<a href="/src/carrito.html"> 
+				<button type="button" class="btn btn-danger position-relative">
+					PROMO 79.900 <svg width="1em" height="1em" viewBox="0 0 16 16" class="position-absolute top-100 start-50 translate-middle mt-1 bi bi-caret-down-fill" fill="#212529" xmlns="http://www.w3.org/2000/svg"><path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg>
+				  </button></a>
+			  </div>	
+			  <div class="card-footer">
+				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+					Tabla de tallas / Medidas
+				  </button>
+				  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+					<div class="modal-dialog">
+					  <div class="modal-content">
+						<div class="modal-header">
+						  <h5 class="modal-title" id="staticBackdropLabel">Tabla de tallas / Medidas</h5>
+						  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="modal-body">
+							<table class="table table-hover">
+								<tr>
+									<th scope="col">Talla</th>
+									<th scope="col">Medida</th>
+									<tr>
+										<th scope="row">33</th>
+										<td>22 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">34</th>
+										<td>23 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">35</th>
+										<td>23.5 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">36</th>
+										<td>24 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">37</th>
+										<td>24.5 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">38</th>
+										<td>25.5 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">39</th>
+										<td>26 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">40</th>
+										<td>27 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">41</th>
+										<td>27.5 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">42</th>
+										<td>28 cms</td>
+									  </tr>
+									  <tr>
+										<th scope="row">43</th>
+										<td>29 cms</td>
+									  </tr>
+								  </tr>
+							  </table>
+						</div>
+						<div class="modal-footer">
+						  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Comprendido!</button>
+						</div>
+					  </div>
+					</div>
+				  </div>
+			</div>
+		  </div>
+	</main>
+		<!----------------Pie de Pagina-------------------->
+	<footer>
+		<div class="contenedor-imagen">
+			<img src="https://images.unsplash.com/photo-1524844972719-9ed0d97562e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="">
+		</div>
+		<nav class="navbar">
+				<div class="contenedor">
+					<a href="/src/index.html">Inicio</a>
+					<a href="/src/Contactanos.html">Contactanos</a>
+			</div>
+		</nav>
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
