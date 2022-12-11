@@ -26,7 +26,7 @@ body {
 	background: #f2f2f2;
 }
 
-/* * ============ HEADER ========== */
+/* ============ HEADER ========== */
 
 .navbar {
 	background: #FFCD48;
@@ -58,7 +58,7 @@ body {
 	justify-content: space-between;
 }
 
-/* * ===== CONTENEDOR IMAGEN ====== */
+/* ===== CONTENEDOR IMAGEN ====== */
 
 .contenedor-imagen {
 	height: 90vh;
@@ -77,7 +77,7 @@ body {
 	height: 10px;
 }
 
-/* * ============ CONTENIDO ============ */
+/*  ============ CONTENIDO ============ */
 
 main {
 	min-height: 100vh;
@@ -100,7 +100,7 @@ main .contenido .fecha {
 	color: #B5B5B5;
 }
 
-/* * ============ ASIDE =========== */
+/*  ============ ASIDE =========== */
 
 
 aside {
@@ -135,7 +135,7 @@ footer .navbar {
 
 
 
-/* * ====== MEDIA QUERIES ========= */
+/* ====== MEDIA QUERIES ========= */
 
 @media screen and (max-width: 900px){
 	.navbar .contenedor {
@@ -162,48 +162,4 @@ footer .navbar {
 		margin: 40px 0 0 0;
 	}
 	
-}
-
-
-/* POPUP */
-
-
-.contenedor {
-	width: 90%;
-	max-width: 1000px;
-	margin: 20px auto;
-}
-
-.contenedor article {
-	line-height: 28px;
-}
-
-.contenedor article h1 {
-	font-size: 30px;
-	text-align: left;
-	padding: 50px 0;
-}
-
-.contenedor article p {
-	margin-bottom: 20px;
-}
-
-.contenedor article .btn-abrir-popup {
-	padding: 0 20px;
-	margin-bottom: 20px;
-	height: 40px;
-	line-height: 40px;
-	border: none;
-	color: #fff;
-	background: #5E7DE3;
-	border-radius: 3px;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 16px;
-	cursor: pointer;
-	transition: .3s ease all;
-	cursor: pointer;
-}
-
-.contenedor article .btn-abrir-popup:hover {
-	background: rgba(94,125,227, .9);
 }

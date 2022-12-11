@@ -1,5 +1,5 @@
 ## bit05htmlbootstrap
 
-## Sitio Web Basado con HTML, CSS y BOOTSTRAP dedicada a una empresa fabricante de zapatillas.
+## Sitio Web Basado con HTML, CSS, JAVASCRIPT y BOOTSTRAP dedicada a una empresa fabricante de zapatillas.
 
-##  Autor: Enrique Abril Contreras
+##  Desarrolladores: Enrique Abril Contreras y Eleiza Caridad

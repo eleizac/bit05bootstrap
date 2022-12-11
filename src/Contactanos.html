@@ -84,17 +84,35 @@
 										<textarea class="form-control" id="message" name="message" placeholder="Escribe aqui tu mensaje o propuesta" rows="7"></textarea>
 									</div>
 								</div>
-								<div class="form-group">
-									<div class="col-md-12 text-center">
-										<br>
-										<div class="form-group">
-											<div class="col-md-12 text-center">
-												<br>
-												<a href="/src/index.html"> 
-													<button type="button" class="btn btn-success position-static">
-														Enviar </button></a>
-											</div>
-										</div>
+								<br>
+
+								<!-- Button modal -->
+								<div class="position-relative">
+									<div class="position-absolute top-100 start-50 translate-middle">
+								<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+								Enviar </button> </div> </div>
+  
+  								<!-- Modal -->
+  								<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+								<div class="modal-dialog">
+	  							<div class="modal-content">
+							<div class="modal-header">
+		 					 <h5 class="modal-title" id="exampleModalLabel">Muchas gracias por contactarnos</h5>
+		 					 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+		 						 <p>Tu mensaje ha sido enviado con exito!</p>
+								 <p>En un plazo no mayor de 24 horas te estaremos respondiendo via correo electronico</p>
+								 <p><h6>**Zapatillas Hat Trick**</h6></p>
+								</div>
+								<div class="modal-footer">
+							  <a href="/src/Contactanos.html"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button></a>
+							  <a href="/src/index.html"><button type="button" class="btn btn-primary">Ir al inicio </button></a>
+								</div>
+							  </div>
+							</div>
+ 							 </div>
+							 <br>
 							</fieldset>
 						</form>
 					</div>
@@ -115,5 +133,6 @@
 			</div>
 		</nav>
 	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>
